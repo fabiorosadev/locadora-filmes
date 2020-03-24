@@ -56,7 +56,7 @@ export default function NavDrawer({ user, onOpen }) {
 
   const handleLogout = () => {
     logout();
-    window.location = '/auth';
+    window.location = '/';
   };
 
   return (
