@@ -10,7 +10,7 @@
 
 1 - Faça o restore dos projetos (dotnet restore)
 
-2 - Acesse a pasta principal dos projetos e execute o comando abaixo para criar a base de dados:
+2 - Acesse a pasta principal dos projetos (backend) via terminal e execute o comando abaixo para criar a base de dados:
 
 dotnet ef --startup-project MovieStore.Api/MovieStore.Api.csproj database update
 
